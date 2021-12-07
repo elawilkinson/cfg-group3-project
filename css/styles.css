@@ -9,6 +9,7 @@ h1{
   justify-content: center;
   background-color: black;
   color:white;
+  font-size:4vw;
 }
 
 h2{
@@ -19,16 +20,19 @@ h2{
   background-color: grey;
   color:white;
   font-style: italic;
-  font-size: 1vw;
+  font-size: 2vw;
 }
 
 .results{
-  padding-top:2vw; 
+  padding-top:4vw; 
   padding-left:2vw; 
+  padding-bottom:5vw;
   height: 50vw;
   display: flex;
-    /* align-items: center;
-    justify-content: center; */
+}
+
+.cast{
+  border-radius:5vw;
 }
 
 .details{
@@ -38,33 +42,22 @@ h2{
   flex-direction: column;
 }
 
+h3{
+  background-color:white;
+  border-radius: 0.6vw;
+  font-size:2vw;
+}
+
+.descrip{
+  background-color:rgb(194, 193, 193);
+  margin-left:3vw;
+  border-radius:0.6vw;
+}
+
 form{
   display:flex;
   flex-direction:column;
   align-items:center;
 }
 
-/* p span{
-  display: block;
-}
 
-p{
-  white-space: pre;
-} */
-
-/* h3{
-  height:0.5vw
-} */
-
-/* header h1 {
-    color: lightslategray;
-}
-
-p {
-    width: 300px;
-    margin-top: 30px;
-}
-
-.specialText {
-    color: coral
-} */
